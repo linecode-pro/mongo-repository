@@ -7,7 +7,7 @@
 
 # MONGO
   mongo-single:
-    image: "mongo"
+    image: mongo:latest
     container_name: mongo-single
     ports:
       - 27044:27017
